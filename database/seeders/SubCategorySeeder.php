@@ -3,14 +3,13 @@
 namespace Database\Seeders;
 
 use App\Models\Category;
-use App\Models\ProductColor;
-use App\Models\ProductImage;
+use App\Models\ProductVariants;
+use App\Models\VariantImages;
 use App\Models\Product;
-use App\Models\ProductSize;
+use App\Models\VariantSizes;
 use App\Models\ProductReview;
 use App\Models\SubCategory;
 use App\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -32,9 +31,13 @@ class SubCategorySeeder extends Seeder
 
             // Decode the JSON data into an array
             $productsData = json_decode($jsonData, true);
+
+
             User::factory(20)->create();
+
             // Loop through each product
             foreach ($productsData as $productData) {
+
                 // Find or create the category
                 $category = Category::firstOrCreate([
                     'name' => $productData['category'],
@@ -59,49 +62,63 @@ class SubCategorySeeder extends Seeder
                     'description' => $productData['description'],
                     'video_url' => $productData['video_url'],
                     'rating' => $productData['rating'],
+                    'color_option' => 'color',
+                    'discount_type' => 'no-discount',
+                    'discount' => 0,
+
                 ]);
 
-                for($i = 0; $i < rand(6,26); $i++) {
+                for ($i = 0; $i < rand(6, 26); $i++) {
                     ProductReview::create([
                         'product_id' => $product->id,
-                        'rating' => mt_rand(350,500) / 100,
+                        'rating' => mt_rand(350, 500) / 100,
                         'review' => fake()->paragraph(50),
-                        'user_id' => rand(1,10),
+                        'user_id' => rand(1, 10),
 
                     ]);
                 }
 
-                // Insert other images
-                foreach ($productData['other_img_urls'] as $imgUrl) {
-                    ProductImage::create([
+
+                foreach ($productData['variants'] as $variant) {
+
+
+                    $productVariant = ProductVariants::create([
                         'product_id' => $product->id,
-                        'url' => $imgUrl,
+                        'color_value' => $variant['color_value'],
+                        'color_name' => $variant['color_name'],
+                        'color_option'=> 'color',
+                        'price' => $variant['price'],
+                        'discount_type' => $variant['discount_type'],
+                        'discount' => $variant['discount'],
+                        'stock' => $variant['stock'],
+
                     ]);
+
+                    foreach ($variant['images'] as $image) {
+                        VariantImages::create([
+                            'product_id' => $product->id,
+                            'product_variants_id' => $productVariant->id,
+                            'url' => $image,
+                        ]);
+                    };
+
+                    foreach ($variant['sizes'] as $size) {
+                        VariantSizes::create([
+                            'product_id' => $product->id,
+                            'product_variants_id' => $productVariant->id,
+                            'size' => $size,
+                        ]);
+                    }
+
+
                 }
 
-                // Insert color options
-                foreach ($productData['colors'] as $color) {
-                    ProductColor::create([
-                        'product_id' => $product->id,
-                        'color_value' => $color['color_value'],
-                        'price' => $color['price'],
-                    ]);
-                }
-
-                // Insert size options
-                foreach ($productData['sizes'] as $size) {
-                    ProductSize::create([
-                        'product_id' => $product->id,
-                        'size' => $size,
-                    ]);
-                }
             }
 
 
         } else {
             echo "The JSON file does not exist.";
         }
-
 
 
     }

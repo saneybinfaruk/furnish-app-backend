@@ -1,0 +1,3655 @@
+[
+    //* Living Room *//
+    {
+        "name": "Modern Sofa",
+        "category": "Living Room",
+        "sub_category": "Sofas",
+        "price": 299.99,
+        "img_url": "https://example.com/images/modern_sofa_main.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_sofa_side.jpg",
+            "https://example.com/images/modern_sofa_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#808080",
+                "price": 309.99
+            },
+            {
+                "color_value": "#0000FF",
+                "price": 289.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium",
+            "large",
+            "extra large"
+        ],
+        "description": "This modern sofa blends comfort and style, offering plush cushions and a sleek design. It's the perfect addition to your living room, providing a cozy yet elegant atmosphere.",
+        "video_url": "https://example.com/videos/modern_sofa_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Classic Leather Sofa",
+        "category": "Living Room",
+        "sub_category": "Sofas",
+        "price": 499.99,
+        "img_url": "https://example.com/images/classic_leather_sofa_main.jpg",
+        "other_img_urls": [
+            "https://example.com/images/classic_leather_sofa_side.jpg",
+            "https://example.com/images/classic_leather_sofa_closeup.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 519.99
+            },
+            {
+                "color_value": "#000000",
+                "price": 499.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large",
+            "extra large"
+        ],
+        "description": "Crafted with premium leather, this classic sofa offers durability and timeless elegance. The perfect choice for those seeking luxury and sophistication in their living space.",
+        "video_url": "https://example.com/videos/classic_leather_sofa_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Compact Sofa Bed",
+        "category": "Living Room",
+        "sub_category": "Sofas",
+        "price": 399.99,
+        "img_url": "https://example.com/images/sofa_bed_main.jpg",
+        "other_img_urls": [
+            "https://example.com/images/sofa_bed_extended.jpg",
+            "https://example.com/images/sofa_bed_closeup.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#708090",
+                "price": 409.99
+            },
+            {
+                "color_value": "#2F4F4F",
+                "price": 399.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "This versatile compact sofa bed is ideal for small spaces. It seamlessly transforms into a comfortable bed, offering style and functionality in one perfect package.",
+        "video_url": "https://example.com/videos/sofa_bed_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Recliner Sofa",
+        "category": "Living Room",
+        "sub_category": "Sofas",
+        "price": 549.99,
+        "img_url": "https://example.com/images/recliner_sofa_main.jpg",
+        "other_img_urls": [
+            "https://example.com/images/recliner_sofa_reclined.jpg",
+            "https://example.com/images/recliner_sofa_closeup.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#4B0082",
+                "price": 569.99
+            },
+            {
+                "color_value": "#6A5ACD",
+                "price": 549.99
+            }
+        ],
+        "sizes": [
+            "large",
+            "extra large"
+        ],
+        "description": "This recliner sofa combines comfort with convenience, offering adjustable reclining positions and plush seating. A luxurious addition to any living room.",
+        "video_url": "https://example.com/videos/recliner_sofa_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Sectional Sofa",
+        "category": "Living Room",
+        "sub_category": "Sofas",
+        "price": 749.99,
+        "img_url": "https://example.com/images/sectional_sofa_main.jpg",
+        "other_img_urls": [
+            "https://example.com/images/sectional_sofa_corner.jpg",
+            "https://example.com/images/sectional_sofa_top.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2E8B57",
+                "price": 759.99
+            },
+            {
+                "color_value": "#556B2F",
+                "price": 749.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large",
+            "extra large"
+        ],
+        "description": "This spacious sectional sofa offers ample seating for your family and guests. Designed for both comfort and style, it’s perfect for larger living rooms.",
+        "video_url": "https://example.com/videos/sectional_sofa_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Modern Glass Coffee Table",
+        "category": "Living Room",
+        "sub_category": "Coffee Tables",
+        "price": 199.99,
+        "img_url": "https://example.com/images/modern_glass_coffee_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_glass_coffee_table_side.jpg",
+            "https://example.com/images/modern_glass_coffee_table_top.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 209.99
+            },
+            {
+                "color_value": "#000000",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "description": "A sleek and modern glass coffee table with a minimalist design, perfect for any contemporary living room.",
+        "video_url": "https://example.com/videos/modern_glass_coffee_table_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Wooden Coffee Table",
+        "category": "Living Room",
+        "sub_category": "Coffee Tables",
+        "price": 149.99,
+        "img_url": "https://example.com/images/wooden_coffee_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_coffee_table_side.jpg",
+            "https://example.com/images/wooden_coffee_table_closeup.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 159.99
+            },
+            {
+                "color_value": "#A52A2A",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "This wooden coffee table features a rustic design with ample space for books, decor, and drinks.",
+        "video_url": "https://example.com/videos/wooden_coffee_table_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Industrial Style Coffee Table",
+        "category": "Living Room",
+        "sub_category": "Coffee Tables",
+        "price": 249.99,
+        "img_url": "https://example.com/images/industrial_style_coffee_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_style_coffee_table_side.jpg",
+            "https://example.com/images/industrial_style_coffee_table_legs.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#333333",
+                "price": 259.99
+            },
+            {
+                "color_value": "#D3D3D3",
+                "price": 249.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "This industrial-style coffee table combines metal and wood for a rugged, urban look, making it perfect for modern living rooms.",
+        "video_url": "https://example.com/videos/industrial_style_coffee_table_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Round Marble Coffee Table",
+        "category": "Living Room",
+        "sub_category": "Coffee Tables",
+        "price": 349.99,
+        "img_url": "https://example.com/images/round_marble_coffee_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/round_marble_coffee_table_side.jpg",
+            "https://example.com/images/round_marble_coffee_table_top.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 359.99
+            },
+            {
+                "color_value": "#000000",
+                "price": 349.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "A luxurious round marble coffee table, ideal for adding a touch of elegance to your living room.",
+        "video_url": "https://example.com/videos/round_marble_coffee_table_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Mid-Century Modern Coffee Table",
+        "category": "Living Room",
+        "sub_category": "Coffee Tables",
+        "price": 179.99,
+        "img_url": "https://example.com/images/mid_century_modern_coffee_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mid_century_modern_coffee_table_side.jpg",
+            "https://example.com/images/mid_century_modern_coffee_table_legs.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFD700",
+                "price": 189.99
+            },
+            {
+                "color_value": "#8B0000",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "This mid-century modern coffee table brings a retro vibe to your living room, featuring clean lines and wooden legs for a vintage touch.",
+        "video_url": "https://example.com/videos/mid_century_modern_coffee_table_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Modern Wood TV Stand",
+        "category": "Living Room",
+        "sub_category": "TV Stands",
+        "price": 249.99,
+        "img_url": "https://example.com/images/modern_wood_tv_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_wood_tv_stand_side.jpg",
+            "https://example.com/images/modern_wood_tv_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 259.99
+            },
+            {
+                "color_value": "#D3D3D3",
+                "price": 249.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "description": "A sleek and modern wooden TV stand that fits perfectly in your living room, offering ample storage space.",
+        "video_url": "https://example.com/videos/modern_wood_tv_stand_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Metal Frame TV Stand",
+        "category": "Living Room",
+        "sub_category": "TV Stands",
+        "price": 189.99,
+        "img_url": "https://example.com/images/metal_frame_tv_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/metal_frame_tv_stand_side.jpg",
+            "https://example.com/images/metal_frame_tv_stand_legs.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 199.99
+            },
+            {
+                "color_value": "#FFFFFF",
+                "price": 189.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "This industrial-style metal frame TV stand brings a modern and bold look to your living space, with plenty of shelf storage.",
+        "video_url": "https://example.com/videos/metal_frame_tv_stand_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Mid-Century Modern TV Stand",
+        "category": "Living Room",
+        "sub_category": "TV Stands",
+        "price": 319.99,
+        "img_url": "https://example.com/images/mid_century_modern_tv_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mid_century_modern_tv_stand_side.jpg",
+            "https://example.com/images/mid_century_modern_tv_stand_legs.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B0000",
+                "price": 329.99
+            },
+            {
+                "color_value": "#FFD700",
+                "price": 319.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "A stylish mid-century modern TV stand with a retro design, perfect for a vintage-inspired living room.",
+        "video_url": "https://example.com/videos/mid_century_modern_tv_stand_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Glass and Wood TV Stand",
+        "category": "Living Room",
+        "sub_category": "TV Stands",
+        "price": 269.99,
+        "img_url": "https://example.com/images/glass_and_wood_tv_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/glass_and_wood_tv_stand_side.jpg",
+            "https://example.com/images/glass_and_wood_tv_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 279.99
+            },
+            {
+                "color_value": "#FFFFFF",
+                "price": 269.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "A contemporary glass and wood TV stand offering a clean design with spacious compartments for your entertainment devices.",
+        "video_url": "https://example.com/videos/glass_and_wood_tv_stand_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Compact TV Stand with Storage",
+        "category": "Living Room",
+        "sub_category": "TV Stands",
+        "price": 149.99,
+        "img_url": "https://example.com/images/compact_tv_stand_with_storage.jpg",
+        "other_img_urls": [
+            "https://example.com/images/compact_tv_stand_with_storage_side.jpg",
+            "https://example.com/images/compact_tv_stand_with_storage_top.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 159.99
+            },
+            {
+                "color_value": "#DCDCDC",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "This compact TV stand features built-in storage for a tidy and organized living room, suitable for smaller spaces.",
+        "video_url": "https://example.com/videos/compact_tv_stand_with_storage_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Comfort Recliner Chair",
+        "category": "Living Room",
+        "sub_category": "Recliners",
+        "price": 399.99,
+        "img_url": "https://example.com/images/comfort_recliner.jpg",
+        "other_img_urls": [
+            "https://example.com/images/comfort_recliner_side.jpg",
+            "https://example.com/images/comfort_recliner_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 419.99
+            },
+            {
+                "color_value": "#D3D3D3",
+                "price": 399.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "A luxurious recliner with soft upholstery and adjustable reclining options for ultimate comfort.",
+        "video_url": "https://example.com/videos/comfort_recliner_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Modern Leather Recliner",
+        "category": "Living Room",
+        "sub_category": "Recliners",
+        "price": 499.99,
+        "img_url": "https://example.com/images/modern_leather_recliner.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_leather_recliner_side.jpg",
+            "https://example.com/images/modern_leather_recliner_legs.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 499.99
+            },
+            {
+                "color_value": "#FFFFFF",
+                "price": 509.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "A modern leather recliner chair offering both comfort and style with high-quality leather and sleek design.",
+        "video_url": "https://example.com/videos/modern_leather_recliner_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Vintage Recliner with Ottoman",
+        "category": "Living Room",
+        "sub_category": "Recliners",
+        "price": 349.99,
+        "img_url": "https://example.com/images/vintage_recliner_ottoman.jpg",
+        "other_img_urls": [
+            "https://example.com/images/vintage_recliner_ottoman_side.jpg",
+            "https://example.com/images/vintage_recliner_ottoman_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 359.99
+            },
+            {
+                "color_value": "#D3D3D3",
+                "price": 349.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "A vintage-inspired recliner with a matching ottoman, providing a relaxing experience with its ergonomic design.",
+        "video_url": "https://example.com/videos/vintage_recliner_ottoman_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Ergonomic Recliner Chair",
+        "category": "Living Room",
+        "sub_category": "Recliners",
+        "price": 399.99,
+        "img_url": "https://example.com/images/ergonomic_recliner.jpg",
+        "other_img_urls": [
+            "https://example.com/images/ergonomic_recliner_side.jpg",
+            "https://example.com/images/ergonomic_recliner_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#4682B4",
+                "price": 409.99
+            },
+            {
+                "color_value": "#708090",
+                "price": 399.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "An ergonomic recliner designed for maximum comfort, with multiple adjustable positions for personalized relaxation.",
+        "video_url": "https://example.com/videos/ergonomic_recliner_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Luxury Recliner with Massage Function",
+        "category": "Living Room",
+        "sub_category": "Recliners",
+        "price": 699.99,
+        "img_url": "https://example.com/images/luxury_recliner_massage.jpg",
+        "other_img_urls": [
+            "https://example.com/images/luxury_recliner_massage_side.jpg",
+            "https://example.com/images/luxury_recliner_massage_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 709.99
+            },
+            {
+                "color_value": "#DCDCDC",
+                "price": 699.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "Indulge in luxury with this recliner featuring a built-in massage function, perfect for relieving stress after a long day.",
+        "video_url": "https://example.com/videos/luxury_recliner_massage_demo.mp4",
+        "rating": 4.9
+    },
+    {
+        "name": "Contemporary Accent Chair",
+        "category": "Living Room",
+        "sub_category": "Accent Chairs",
+        "price": 299.99,
+        "img_url": "https://example.com/images/contemporary_accent_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/contemporary_accent_chair_side.jpg",
+            "https://example.com/images/contemporary_accent_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 309.99
+            },
+            {
+                "color_value": "#4B0082",
+                "price": 319.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A modern accent chair designed for your living room, providing a sleek look with luxurious comfort.",
+        "video_url": "https://example.com/videos/contemporary_accent_chair_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Velvet Accent Chair",
+        "category": "Living Room",
+        "sub_category": "Accent Chairs",
+        "price": 349.99,
+        "img_url": "https://example.com/images/velvet_accent_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/velvet_accent_chair_side.jpg",
+            "https://example.com/images/velvet_accent_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#C71585",
+                "price": 349.99
+            },
+            {
+                "color_value": "#FFD700",
+                "price": 359.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "An elegant velvet accent chair offering a touch of sophistication to your living space with a plush feel.",
+        "video_url": "https://example.com/videos/velvet_accent_chair_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Lounge Accent Chair",
+        "category": "Living Room",
+        "sub_category": "Accent Chairs",
+        "price": 229.99,
+        "img_url": "https://example.com/images/lounge_accent_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/lounge_accent_chair_side.jpg",
+            "https://example.com/images/lounge_accent_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8A2BE2",
+                "price": 239.99
+            },
+            {
+                "color_value": "#B0E0E6",
+                "price": 229.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "A comfortable and stylish lounge accent chair, perfect for reading corners or casual seating.",
+        "video_url": "https://example.com/videos/lounge_accent_chair_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Mid-Century Modern Accent Chair",
+        "category": "Living Room",
+        "sub_category": "Accent Chairs",
+        "price": 399.99,
+        "img_url": "https://example.com/images/mid_century_modern_accent_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mid_century_modern_accent_chair_side.jpg",
+            "https://example.com/images/mid_century_modern_accent_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 399.99
+            },
+            {
+                "color_value": "#FFD700",
+                "price": 409.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A vintage-inspired mid-century modern accent chair with a minimalist design that suits any modern home.",
+        "video_url": "https://example.com/videos/mid_century_modern_accent_chair_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Industrial Accent Chair",
+        "category": "Living Room",
+        "sub_category": "Accent Chairs",
+        "price": 259.99,
+        "img_url": "https://example.com/images/industrial_accent_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_accent_chair_side.jpg",
+            "https://example.com/images/industrial_accent_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#808080",
+                "price": 269.99
+            },
+            {
+                "color_value": "#696969",
+                "price": 259.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "An industrial-style accent chair with a unique design, adding a modern rustic feel to your living room.",
+        "video_url": "https://example.com/videos/industrial_accent_chair_demo.mp4",
+        "rating": 4.5
+    },
+    //* Bedroom *//
+    {
+        "name": "Luxury King Size Bed",
+        "category": "Bedroom",
+        "sub_category": "King Size Beds",
+        "price": 799.99,
+        "img_url": "https://example.com/images/luxury_king_size_bed.jpg",
+        "other_img_urls": [
+            "https://example.com/images/luxury_king_size_bed_side.jpg",
+            "https://example.com/images/luxury_king_size_bed_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 849.99
+            },
+            {
+                "color_value": "#A52A2A",
+                "price": 799.99
+            }
+        ],
+        "sizes": [
+            "king"
+        ],
+        "description": "A luxurious king size bed designed for ultimate comfort and style, perfect for a master bedroom.",
+        "video_url": "https://example.com/videos/luxury_king_size_bed_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Modern King Size Bed",
+        "category": "Bedroom",
+        "sub_category": "King Size Beds",
+        "price": 699.99,
+        "img_url": "https://example.com/images/modern_king_size_bed.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_king_size_bed_side.jpg",
+            "https://example.com/images/modern_king_size_bed_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 729.99
+            },
+            {
+                "color_value": "#B0E0E6",
+                "price": 699.99
+            }
+        ],
+        "sizes": [
+            "king"
+        ],
+        "description": "A sleek and modern king size bed with clean lines and a contemporary design, perfect for any modern bedroom.",
+        "video_url": "https://example.com/videos/modern_king_size_bed_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Wooden King Size Bed",
+        "category": "Bedroom",
+        "sub_category": "King Size Beds",
+        "price": 749.99,
+        "img_url": "https://example.com/images/wooden_king_size_bed.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_king_size_bed_side.jpg",
+            "https://example.com/images/wooden_king_size_bed_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#DEB887",
+                "price": 749.99
+            },
+            {
+                "color_value": "#A52A2A",
+                "price": 769.99
+            }
+        ],
+        "sizes": [
+            "king"
+        ],
+        "description": "A classic wooden king size bed crafted from high-quality materials to add warmth and elegance to your bedroom.",
+        "video_url": "https://example.com/videos/wooden_king_size_bed_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Upholstered King Size Bed",
+        "category": "Bedroom",
+        "sub_category": "King Size Beds",
+        "price": 899.99,
+        "img_url": "https://example.com/images/upholstered_king_size_bed.jpg",
+        "other_img_urls": [
+            "https://example.com/images/upholstered_king_size_bed_side.jpg",
+            "https://example.com/images/upholstered_king_size_bed_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#B22222",
+                "price": 899.99
+            },
+            {
+                "color_value": "#D3D3D3",
+                "price": 919.99
+            }
+        ],
+        "sizes": [
+            "king"
+        ],
+        "description": "A luxurious upholstered king size bed with a tufted headboard, offering comfort and style for your bedroom.",
+        "video_url": "https://example.com/videos/upholstered_king_size_bed_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Minimalist King Size Bed",
+        "category": "Bedroom",
+        "sub_category": "King Size Beds",
+        "price": 699.99,
+        "img_url": "https://example.com/images/minimalist_king_size_bed.jpg",
+        "other_img_urls": [
+            "https://example.com/images/minimalist_king_size_bed_side.jpg",
+            "https://example.com/images/minimalist_king_size_bed_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 699.99
+            },
+            {
+                "color_value": "#000000",
+                "price": 719.99
+            }
+        ],
+        "sizes": [
+            "king"
+        ],
+        "description": "A minimalist king size bed with a simple design that complements any bedroom decor, providing both function and style.",
+        "video_url": "https://example.com/videos/minimalist_king_size_bed_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Wooden Nightstand",
+        "category": "Bedroom",
+        "sub_category": "Nightstands",
+        "price": 149.99,
+        "img_url": "https://example.com/images/wooden_nightstand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_nightstand_side.jpg",
+            "https://example.com/images/wooden_nightstand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D2B48C",
+                "price": 159.99
+            },
+            {
+                "color_value": "#A52A2A",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A rustic wooden nightstand with a drawer for storage, perfect for any bedroom setting.",
+        "video_url": "https://example.com/videos/wooden_nightstand_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Modern Nightstand",
+        "category": "Bedroom",
+        "sub_category": "Nightstands",
+        "price": 129.99,
+        "img_url": "https://example.com/images/modern_nightstand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_nightstand_side.jpg",
+            "https://example.com/images/modern_nightstand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 129.99
+            },
+            {
+                "color_value": "#000000",
+                "price": 139.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek modern nightstand with clean lines and a minimalist design, perfect for contemporary bedrooms.",
+        "video_url": "https://example.com/videos/modern_nightstand_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Industrial Nightstand",
+        "category": "Bedroom",
+        "sub_category": "Nightstands",
+        "price": 169.99,
+        "img_url": "https://example.com/images/industrial_nightstand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_nightstand_side.jpg",
+            "https://example.com/images/industrial_nightstand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 179.99
+            },
+            {
+                "color_value": "#A9A9A9",
+                "price": 169.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "An industrial-style nightstand with a mix of metal and wood, perfect for a rustic bedroom look.",
+        "video_url": "https://example.com/videos/industrial_nightstand_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Glass Nightstand",
+        "category": "Bedroom",
+        "sub_category": "Nightstands",
+        "price": 119.99,
+        "img_url": "https://example.com/images/glass_nightstand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/glass_nightstand_side.jpg",
+            "https://example.com/images/glass_nightstand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 119.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A contemporary nightstand with a glass surface and minimalist design.",
+        "video_url": "https://example.com/videos/glass_nightstand_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Classic Nightstand",
+        "category": "Bedroom",
+        "sub_category": "Nightstands",
+        "price": 149.99,
+        "img_url": "https://example.com/images/classic_nightstand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/classic_nightstand_side.jpg",
+            "https://example.com/images/classic_nightstand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 159.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A classic design nightstand with one drawer and a shelf, perfect for traditional bedroom settings.",
+        "video_url": "https://example.com/videos/classic_nightstand_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Modern Sliding Wardrobe",
+        "category": "Bedroom",
+        "sub_category": "Wardrobes",
+        "price": 899.99,
+        "img_url": "https://example.com/images/modern_sliding_wardrobe.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_sliding_wardrobe_side.jpg",
+            "https://example.com/images/modern_sliding_wardrobe_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 899.99
+            },
+            {
+                "color_value": "#D3D3D3",
+                "price": 929.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A modern sliding wardrobe with ample storage space, perfect for organizing clothes and accessories.",
+        "video_url": "https://example.com/videos/modern_sliding_wardrobe_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Wooden Wardrobe with Drawers",
+        "category": "Bedroom",
+        "sub_category": "Wardrobes",
+        "price": 749.99,
+        "img_url": "https://example.com/images/wooden_wardrobe_with_drawers.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_wardrobe_with_drawers_side.jpg",
+            "https://example.com/images/wooden_wardrobe_with_drawers_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 749.99
+            },
+            {
+                "color_value": "#A52A2A",
+                "price": 779.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A spacious wooden wardrobe with drawers for extra storage space, designed for your bedroom organization.",
+        "video_url": "https://example.com/videos/wooden_wardrobe_with_drawers_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Glass Wardrobe with Shelves",
+        "category": "Bedroom",
+        "sub_category": "Wardrobes",
+        "price": 849.99,
+        "img_url": "https://example.com/images/glass_wardrobe_with_shelves.jpg",
+        "other_img_urls": [
+            "https://example.com/images/glass_wardrobe_with_shelves_side.jpg",
+            "https://example.com/images/glass_wardrobe_with_shelves_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 849.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A sleek and modern glass wardrobe with ample shelving and hanging space, ideal for contemporary bedrooms.",
+        "video_url": "https://example.com/videos/glass_wardrobe_with_shelves_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Corner Wardrobe",
+        "category": "Bedroom",
+        "sub_category": "Wardrobes",
+        "price": 699.99,
+        "img_url": "https://example.com/images/corner_wardrobe.jpg",
+        "other_img_urls": [
+            "https://example.com/images/corner_wardrobe_side.jpg",
+            "https://example.com/images/corner_wardrobe_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 699.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A compact corner wardrobe with multiple shelves and hanging space, ideal for maximizing small bedroom spaces.",
+        "video_url": "https://example.com/videos/corner_wardrobe_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Industrial Metal Wardrobe",
+        "category": "Bedroom",
+        "sub_category": "Wardrobes",
+        "price": 799.99,
+        "img_url": "https://example.com/images/industrial_metal_wardrobe.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_metal_wardrobe_side.jpg",
+            "https://example.com/images/industrial_metal_wardrobe_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 799.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A sturdy and stylish industrial-style wardrobe with metal framing and ample storage space.",
+        "video_url": "https://example.com/videos/industrial_metal_wardrobe_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Wooden 6-Drawer Dresser",
+        "category": "Bedroom",
+        "sub_category": "Dressers",
+        "price": 599.99,
+        "img_url": "https://example.com/images/wooden_6_drawer_dresser.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_6_drawer_dresser_side.jpg",
+            "https://example.com/images/wooden_6_drawer_dresser_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 619.99
+            },
+            {
+                "color_value": "#A52A2A",
+                "price": 599.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sturdy wooden dresser with 6 spacious drawers for organized bedroom storage.",
+        "video_url": "https://example.com/videos/wooden_6_drawer_dresser_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Contemporary 5-Drawer Dresser",
+        "category": "Bedroom",
+        "sub_category": "Dressers",
+        "price": 549.99,
+        "img_url": "https://example.com/images/contemporary_5_drawer_dresser.jpg",
+        "other_img_urls": [
+            "https://example.com/images/contemporary_5_drawer_dresser_side.jpg",
+            "https://example.com/images/contemporary_5_drawer_dresser_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 549.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A modern 5-drawer dresser with a minimalist design and ample storage for clothing and accessories.",
+        "video_url": "https://example.com/videos/contemporary_5_drawer_dresser_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Vintage 4-Drawer Dresser",
+        "category": "Bedroom",
+        "sub_category": "Dressers",
+        "price": 499.99,
+        "img_url": "https://example.com/images/vintage_4_drawer_dresser.jpg",
+        "other_img_urls": [
+            "https://example.com/images/vintage_4_drawer_dresser_side.jpg",
+            "https://example.com/images/vintage_4_drawer_dresser_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 499.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A charming vintage dresser with 4 drawers, perfect for adding character to any bedroom.",
+        "video_url": "https://example.com/videos/vintage_4_drawer_dresser_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Modern 3-Drawer Dresser",
+        "category": "Bedroom",
+        "sub_category": "Dressers",
+        "price": 449.99,
+        "img_url": "https://example.com/images/modern_3_drawer_dresser.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_3_drawer_dresser_side.jpg",
+            "https://example.com/images/modern_3_drawer_dresser_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 449.99
+            },
+            {
+                "color_value": "#000000",
+                "price": 459.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A sleek 3-drawer dresser with a modern design, perfect for compact bedrooms.",
+        "video_url": "https://example.com/videos/modern_3_drawer_dresser_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Industrial Dresser with Metal Frame",
+        "category": "Bedroom",
+        "sub_category": "Dressers",
+        "price": 699.99,
+        "img_url": "https://example.com/images/industrial_dresser_with_metal_frame.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_dresser_with_metal_frame_side.jpg",
+            "https://example.com/images/industrial_dresser_with_metal_frame_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 699.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An industrial-style dresser with a metal frame and wood drawers for a rugged, modern look.",
+        "video_url": "https://example.com/videos/industrial_dresser_with_metal_frame_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Classic Wood Bedside Table",
+        "category": "Bedroom",
+        "sub_category": "Bedside Tables",
+        "price": 129.99,
+        "img_url": "https://example.com/images/classic_wood_bedside_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/classic_wood_bedside_table_side.jpg",
+            "https://example.com/images/classic_wood_bedside_table_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A classic wooden bedside table with a drawer and open space for storage, perfect for traditional bedrooms.",
+        "video_url": "https://example.com/videos/classic_wood_bedside_table_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Modern Minimalist Bedside Table",
+        "category": "Bedroom",
+        "sub_category": "Bedside Tables",
+        "price": 149.99,
+        "img_url": "https://example.com/images/modern_minimalist_bedside_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_minimalist_bedside_table_side.jpg",
+            "https://example.com/images/modern_minimalist_bedside_table_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A modern and minimalist bedside table with a sleek design, perfect for small spaces.",
+        "video_url": "https://example.com/videos/modern_minimalist_bedside_table_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Industrial Bedside Table",
+        "category": "Bedroom",
+        "sub_category": "Bedside Tables",
+        "price": 169.99,
+        "img_url": "https://example.com/images/industrial_bedside_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_bedside_table_side.jpg",
+            "https://example.com/images/industrial_bedside_table_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 169.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "An industrial-style bedside table with a metal frame and wood top, perfect for modern bedrooms.",
+        "video_url": "https://example.com/videos/industrial_bedside_table_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Contemporary Bedside Table with Storage",
+        "category": "Bedroom",
+        "sub_category": "Bedside Tables",
+        "price": 179.99,
+        "img_url": "https://example.com/images/contemporary_bedside_table_with_storage.jpg",
+        "other_img_urls": [
+            "https://example.com/images/contemporary_bedside_table_with_storage_side.jpg",
+            "https://example.com/images/contemporary_bedside_table_with_storage_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A stylish bedside table with built-in storage, perfect for modern and functional bedrooms.",
+        "video_url": "https://example.com/videos/contemporary_bedside_table_with_storage_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Rustic Bedside Table",
+        "category": "Bedroom",
+        "sub_category": "Bedside Tables",
+        "price": 159.99,
+        "img_url": "https://example.com/images/rustic_bedside_table.jpg",
+        "other_img_urls": [
+            "https://example.com/images/rustic_bedside_table_side.jpg",
+            "https://example.com/images/rustic_bedside_table_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 159.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A rustic bedside table made from reclaimed wood, with a drawer and open shelf for storage.",
+        "video_url": "https://example.com/videos/rustic_bedside_table_demo.mp4",
+        "rating": 4.6
+    },
+    /* Business Solutions */
+    {
+        "name": "Executive Office Desk",
+        "category": "Business Solutions",
+        "sub_category": "Home Office Desks",
+        "price": 499.99,
+        "img_url": "https://example.com/images/executive_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/executive_office_desk_side.jpg",
+            "https://example.com/images/executive_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 499.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A stylish and functional executive desk with ample workspace and drawers for office supplies.",
+        "video_url": "https://example.com/videos/executive_office_desk_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Compact Home Office Desk",
+        "category": "Business Solutions",
+        "sub_category": "Home Office Desks",
+        "price": 249.99,
+        "img_url": "https://example.com/images/compact_home_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/compact_home_office_desk_side.jpg",
+            "https://example.com/images/compact_home_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 249.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A compact home office desk perfect for smaller spaces, with a minimalist design and storage options.",
+        "video_url": "https://example.com/videos/compact_home_office_desk_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Standing Desk with Adjustable Height",
+        "category": "Business Solutions",
+        "sub_category": "Home Office Desks",
+        "price": 699.99,
+        "img_url": "https://example.com/images/standing_desk_adjustable_height.jpg",
+        "other_img_urls": [
+            "https://example.com/images/standing_desk_adjustable_height_side.jpg",
+            "https://example.com/images/standing_desk_adjustable_height_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 699.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An ergonomic standing desk with adjustable height settings, ideal for a healthier work setup.",
+        "video_url": "https://example.com/videos/standing_desk_adjustable_height_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "L-Shaped Corner Desk",
+        "category": "Business Solutions",
+        "sub_category": "Home Office Desks",
+        "price": 599.99,
+        "img_url": "https://example.com/images/l_shaped_corner_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/l_shaped_corner_desk_side.jpg",
+            "https://example.com/images/l_shaped_corner_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 599.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A spacious L-shaped corner desk with plenty of room for monitors, paperwork, and office equipment.",
+        "video_url": "https://example.com/videos/l_shaped_corner_desk_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Wooden Home Office Desk",
+        "category": "Business Solutions",
+        "sub_category": "Home Office Desks",
+        "price": 349.99,
+        "img_url": "https://example.com/images/wooden_home_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_home_office_desk_side.jpg",
+            "https://example.com/images/wooden_home_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 349.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A beautiful wooden home office desk with simple design and enough space for your office essentials.",
+        "video_url": "https://example.com/videos/wooden_home_office_desk_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "ErgoComfort Office Chair",
+        "category": "Business Solutions",
+        "sub_category": "Ergonomic Chairs",
+        "price": 199.99,
+        "img_url": "https://example.com/images/ergocomfort_office_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/ergocomfort_office_chair_side.jpg",
+            "https://example.com/images/ergocomfort_office_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "standard"
+        ],
+        "description": "A comfortable ergonomic office chair with adjustable height and lumbar support for long hours of work.",
+        "video_url": "https://example.com/videos/ergocomfort_office_chair_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Mesh Back Ergonomic Chair",
+        "category": "Business Solutions",
+        "sub_category": "Ergonomic Chairs",
+        "price": 249.99,
+        "img_url": "https://example.com/images/mesh_back_ergonomic_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mesh_back_ergonomic_chair_side.jpg",
+            "https://example.com/images/mesh_back_ergonomic_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 249.99
+            }
+        ],
+        "sizes": [
+            "standard"
+        ],
+        "description": "An ergonomic chair with a breathable mesh back and adjustable armrests to keep you comfortable throughout the day.",
+        "video_url": "https://example.com/videos/mesh_back_ergonomic_chair_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Executive Ergonomic Office Chair",
+        "category": "Business Solutions",
+        "sub_category": "Ergonomic Chairs",
+        "price": 349.99,
+        "img_url": "https://example.com/images/executive_ergonomic_office_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/executive_ergonomic_office_chair_side.jpg",
+            "https://example.com/images/executive_ergonomic_office_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 349.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "An executive ergonomic office chair with plush cushioning and adjustable settings to maximize comfort.",
+        "video_url": "https://example.com/videos/executive_ergonomic_office_chair_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "ErgoRest Reclining Chair",
+        "category": "Business Solutions",
+        "sub_category": "Ergonomic Chairs",
+        "price": 399.99,
+        "img_url": "https://example.com/images/ergorest_reclining_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/ergorest_reclining_chair_side.jpg",
+            "https://example.com/images/ergorest_reclining_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 399.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A reclining ergonomic chair with adjustable backrest and footrest for ultimate comfort during long working hours.",
+        "video_url": "https://example.com/videos/ergorest_reclining_chair_demo.mp4",
+        "rating": 4.9
+    },
+    {
+        "name": "Task Ergonomic Chair",
+        "category": "Business Solutions",
+        "sub_category": "Ergonomic Chairs",
+        "price": 169.99,
+        "img_url": "https://example.com/images/task_ergonomic_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/task_ergonomic_chair_side.jpg",
+            "https://example.com/images/task_ergonomic_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 169.99
+            }
+        ],
+        "sizes": [
+            "standard"
+        ],
+        "description": "A budget-friendly ergonomic task chair designed for comfort and support for desk jobs.",
+        "video_url": "https://example.com/videos/task_ergonomic_chair_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Modern Bookshelf",
+        "category": "Business Solutions",
+        "sub_category": "Bookshelves",
+        "price": 199.99,
+        "img_url": "https://example.com/images/modern_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_bookshelf_side.jpg",
+            "https://example.com/images/modern_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek and modern bookshelf that adds elegance to your home office while providing ample space for books and decor.",
+        "video_url": "https://example.com/videos/modern_bookshelf_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Industrial Bookshelf",
+        "category": "Business Solutions",
+        "sub_category": "Bookshelves",
+        "price": 259.99,
+        "img_url": "https://example.com/images/industrial_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_bookshelf_side.jpg",
+            "https://example.com/images/industrial_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 259.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A stylish industrial bookshelf with a rugged, metal frame and wooden shelves for a unique, functional look.",
+        "video_url": "https://example.com/videos/industrial_bookshelf_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Corner Bookshelf",
+        "category": "Business Solutions",
+        "sub_category": "Bookshelves",
+        "price": 149.99,
+        "img_url": "https://example.com/images/corner_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/corner_bookshelf_side.jpg",
+            "https://example.com/images/corner_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A compact corner bookshelf perfect for smaller spaces, offering both style and functionality.",
+        "video_url": "https://example.com/videos/corner_bookshelf_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Wooden Wall Bookshelf",
+        "category": "Business Solutions",
+        "sub_category": "Bookshelves",
+        "price": 179.99,
+        "img_url": "https://example.com/images/wooden_wall_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_wall_bookshelf_side.jpg",
+            "https://example.com/images/wooden_wall_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A wall-mounted bookshelf made from high-quality wood, ideal for organizing books, decor, and office supplies.",
+        "video_url": "https://example.com/videos/wooden_wall_bookshelf_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Floating Bookshelf",
+        "category": "Business Solutions",
+        "sub_category": "Bookshelves",
+        "price": 139.99,
+        "img_url": "https://example.com/images/floating_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/floating_bookshelf_side.jpg",
+            "https://example.com/images/floating_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 139.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A modern floating bookshelf that creates an illusion of books hovering on the wall while offering great storage space.",
+        "video_url": "https://example.com/videos/floating_bookshelf_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Adjustable Computer Stand",
+        "category": "Business Solutions",
+        "sub_category": "Computer Stands",
+        "price": 79.99,
+        "img_url": "https://example.com/images/adjustable_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/adjustable_computer_stand_side.jpg",
+            "https://example.com/images/adjustable_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#808080",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A height-adjustable computer stand that allows you to customize your workspace for better ergonomics.",
+        "video_url": "https://example.com/videos/adjustable_computer_stand_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Wooden Computer Stand",
+        "category": "Business Solutions",
+        "sub_category": "Computer Stands",
+        "price": 119.99,
+        "img_url": "https://example.com/images/wooden_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_computer_stand_side.jpg",
+            "https://example.com/images/wooden_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 119.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A stylish wooden computer stand that raises your monitor to eye level and creates more desk space.",
+        "video_url": "https://example.com/videos/wooden_computer_stand_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Metal Computer Stand",
+        "category": "Business Solutions",
+        "sub_category": "Computer Stands",
+        "price": 99.99,
+        "img_url": "https://example.com/images/metal_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/metal_computer_stand_side.jpg",
+            "https://example.com/images/metal_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 99.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A minimalist metal computer stand with a modern design, perfect for creating more desk space.",
+        "video_url": "https://example.com/videos/metal_computer_stand_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Compact Computer Stand",
+        "category": "Business Solutions",
+        "sub_category": "Computer Stands",
+        "price": 69.99,
+        "img_url": "https://example.com/images/compact_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/compact_computer_stand_side.jpg",
+            "https://example.com/images/compact_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 69.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A compact and sleek computer stand, perfect for small desks and minimalist setups.",
+        "video_url": "https://example.com/videos/compact_computer_stand_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Wooden Adjustable Stand",
+        "category": "Business Solutions",
+        "sub_category": "Computer Stands",
+        "price": 89.99,
+        "img_url": "https://example.com/images/wooden_adjustable_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_adjustable_stand_side.jpg",
+            "https://example.com/images/wooden_adjustable_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An adjustable wooden computer stand that offers ergonomic benefits and a natural aesthetic for your workspace.",
+        "video_url": "https://example.com/videos/wooden_adjustable_stand_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Office Storage Cabinet",
+        "category": "Business Solutions",
+        "sub_category": "Office Storage",
+        "price": 199.99,
+        "img_url": "https://example.com/images/office_storage_cabinet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/office_storage_cabinet_side.jpg",
+            "https://example.com/images/office_storage_cabinet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A spacious office storage cabinet with ample shelves and drawers for organizing your office supplies.",
+        "video_url": "https://example.com/videos/office_storage_cabinet_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Under Desk Storage",
+        "category": "Business Solutions",
+        "sub_category": "Office Storage",
+        "price": 129.99,
+        "img_url": "https://example.com/images/under_desk_storage.jpg",
+        "other_img_urls": [
+            "https://example.com/images/under_desk_storage_side.jpg",
+            "https://example.com/images/under_desk_storage_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A compact under-desk storage solution for organizing your workspace and keeping clutter out of sight.",
+        "video_url": "https://example.com/videos/under_desk_storage_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Mobile File Cabinet",
+        "category": "Business Solutions",
+        "sub_category": "Office Storage",
+        "price": 149.99,
+        "img_url": "https://example.com/images/mobile_file_cabinet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mobile_file_cabinet_side.jpg",
+            "https://example.com/images/mobile_file_cabinet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A mobile file cabinet that fits under desks and provides secure storage for files and documents.",
+        "video_url": "https://example.com/videos/mobile_file_cabinet_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Wall-Mounted Office Storage",
+        "category": "Business Solutions",
+        "sub_category": "Office Storage",
+        "price": 169.99,
+        "img_url": "https://example.com/images/wall_mounted_office_storage.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wall_mounted_office_storage_side.jpg",
+            "https://example.com/images/wall_mounted_office_storage_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 169.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek wall-mounted office storage unit for organizing your workspace while saving valuable floor space.",
+        "video_url": "https://example.com/videos/wall_mounted_office_storage_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Bookcase Storage Unit",
+        "category": "Business Solutions",
+        "sub_category": "Office Storage",
+        "price": 179.99,
+        "img_url": "https://example.com/images/bookcase_storage_unit.jpg",
+        "other_img_urls": [
+            "https://example.com/images/bookcase_storage_unit_side.jpg",
+            "https://example.com/images/bookcase_storage_unit_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A multifunctional bookcase storage unit with both open and closed compartments for organizing office items.",
+        "video_url": "https://example.com/videos/bookcase_storage_unit_demo.mp4",
+        "rating": 4.6
+    },
+    /* Lighting */
+
+    {
+        "name": "Modern Pendant Light",
+        "category": "Lighting",
+        "sub_category": "Pendant Lights",
+        "price": 129.99,
+        "img_url": "https://example.com/images/modern_pendant_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_pendant_light_side.jpg",
+            "https://example.com/images/modern_pendant_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FF6347",
+                "price": 139.99
+            },
+            {
+                "color_value": "#2E8B57",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "A sleek and modern pendant light with adjustable length, perfect for enhancing the ambiance of your home or office.",
+        "video_url": "https://example.com/videos/modern_pendant_light_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Industrial Pendant Light",
+        "category": "Lighting",
+        "sub_category": "Pendant Lights",
+        "price": 159.99,
+        "img_url": "https://example.com/images/industrial_pendant_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_pendant_light_side.jpg",
+            "https://example.com/images/industrial_pendant_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D2691E",
+                "price": 159.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A vintage industrial-style pendant light with exposed bulbs, perfect for creating a cozy and rustic vibe.",
+        "video_url": "https://example.com/videos/industrial_pendant_light_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Crystal Pendant Light",
+        "category": "Lighting",
+        "sub_category": "Pendant Lights",
+        "price": 199.99,
+        "img_url": "https://example.com/images/crystal_pendant_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/crystal_pendant_light_side.jpg",
+            "https://example.com/images/crystal_pendant_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F0F8FF",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A luxurious crystal pendant light that adds a touch of elegance to your space with its sparkling design.",
+        "video_url": "https://example.com/videos/crystal_pendant_light_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Vintage Pendant Light",
+        "category": "Lighting",
+        "sub_category": "Pendant Lights",
+        "price": 119.99,
+        "img_url": "https://example.com/images/vintage_pendant_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/vintage_pendant_light_side.jpg",
+            "https://example.com/images/vintage_pendant_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#C0C0C0",
+                "price": 119.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A charming vintage pendant light with an antique finish, perfect for kitchens, dining areas, or bedrooms.",
+        "video_url": "https://example.com/videos/vintage_pendant_light_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Minimalist Pendant Light",
+        "category": "Lighting",
+        "sub_category": "Pendant Lights",
+        "price": 89.99,
+        "img_url": "https://example.com/images/minimalist_pendant_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/minimalist_pendant_light_side.jpg",
+            "https://example.com/images/minimalist_pendant_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "small",
+            "medium"
+        ],
+        "description": "A sleek and simple pendant light that complements modern interiors with a minimalistic design.",
+        "video_url": "https://example.com/videos/minimalist_pendant_light_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Arc Floor Lamp",
+        "category": "Lighting",
+        "sub_category": "Floor Lamps",
+        "price": 169.99,
+        "img_url": "https://example.com/images/arc_floor_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/arc_floor_lamp_side.jpg",
+            "https://example.com/images/arc_floor_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFD700",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "An elegant arc floor lamp with a sweeping curved design, ideal for modern living rooms and offices.",
+        "video_url": "https://example.com/videos/arc_floor_lamp_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Adjustable Floor Lamp",
+        "category": "Lighting",
+        "sub_category": "Floor Lamps",
+        "price": 89.99,
+        "img_url": "https://example.com/images/adjustable_floor_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/adjustable_floor_lamp_side.jpg",
+            "https://example.com/images/adjustable_floor_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A versatile floor lamp with an adjustable arm for directing light exactly where you need it.",
+        "video_url": "https://example.com/videos/adjustable_floor_lamp_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Tower Floor Lamp",
+        "category": "Lighting",
+        "sub_category": "Floor Lamps",
+        "price": 149.99,
+        "img_url": "https://example.com/images/tower_floor_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/tower_floor_lamp_side.jpg",
+            "https://example.com/images/tower_floor_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A tall, slender floor lamp that adds height and light to any space, with a minimalist design.",
+        "video_url": "https://example.com/videos/tower_floor_lamp_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Standing Floor Lamp",
+        "category": "Lighting",
+        "sub_category": "Floor Lamps",
+        "price": 129.99,
+        "img_url": "https://example.com/images/standing_floor_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/standing_floor_lamp_side.jpg",
+            "https://example.com/images/standing_floor_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A classic standing floor lamp that blends seamlessly into any home decor, providing soft, ambient lighting.",
+        "video_url": "https://example.com/videos/standing_floor_lamp_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "LED Floor Lamp",
+        "category": "Lighting",
+        "sub_category": "Floor Lamps",
+        "price": 99.99,
+        "img_url": "https://example.com/images/led_floor_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/led_floor_lamp_side.jpg",
+            "https://example.com/images/led_floor_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 99.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "An energy-efficient LED floor lamp with a contemporary design and adjustable lighting options.",
+        "video_url": "https://example.com/videos/led_floor_lamp_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Touch Table Lamp",
+        "category": "Lighting",
+        "sub_category": "Table Lamps",
+        "price": 69.99,
+        "img_url": "https://example.com/images/touch_table_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/touch_table_lamp_side.jpg",
+            "https://example.com/images/touch_table_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FF4500",
+                "price": 74.99
+            },
+            {
+                "color_value": "#2F4F4F",
+                "price": 69.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A touch-sensitive table lamp, perfect for reading and adding ambiance to your bedroom or living room.",
+        "video_url": "https://example.com/videos/touch_table_lamp_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Modern Desk Lamp",
+        "category": "Lighting",
+        "sub_category": "Table Lamps",
+        "price": 89.99,
+        "img_url": "https://example.com/images/modern_desk_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_desk_lamp_side.jpg",
+            "https://example.com/images/modern_desk_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#B0C4DE",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek and adjustable desk lamp designed for modern workspaces, providing optimal lighting for your desk.",
+        "video_url": "https://example.com/videos/modern_desk_lamp_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Vintage Table Lamp",
+        "category": "Lighting",
+        "sub_category": "Table Lamps",
+        "price": 79.99,
+        "img_url": "https://example.com/images/vintage_table_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/vintage_table_lamp_side.jpg",
+            "https://example.com/images/vintage_table_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A retro-style table lamp with a decorative base, ideal for adding a nostalgic touch to any room.",
+        "video_url": "https://example.com/videos/vintage_table_lamp_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "LED Table Lamp",
+        "category": "Lighting",
+        "sub_category": "Table Lamps",
+        "price": 49.99,
+        "img_url": "https://example.com/images/led_table_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/led_table_lamp_side.jpg",
+            "https://example.com/images/led_table_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 49.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "An energy-efficient LED table lamp with a modern design and adjustable brightness.",
+        "video_url": "https://example.com/videos/led_table_lamp_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Crystal Table Lamp",
+        "category": "Lighting",
+        "sub_category": "Table Lamps",
+        "price": 129.99,
+        "img_url": "https://example.com/images/crystal_table_lamp.jpg",
+        "other_img_urls": [
+            "https://example.com/images/crystal_table_lamp_side.jpg",
+            "https://example.com/images/crystal_table_lamp_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F0F8FF",
+                "price": 139.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A luxurious crystal table lamp designed to illuminate and elevate your living space with elegance.",
+        "video_url": "https://example.com/videos/crystal_table_lamp_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Modern Ceiling Light",
+        "category": "Lighting",
+        "sub_category": "Ceiling Lights",
+        "price": 189.99,
+        "img_url": "https://example.com/images/modern_ceiling_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_ceiling_light_side.jpg",
+            "https://example.com/images/modern_ceiling_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 189.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A modern, minimalist ceiling light designed for larger rooms to add a bright, contemporary touch.",
+        "video_url": "https://example.com/videos/modern_ceiling_light_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Crystal Ceiling Light",
+        "category": "Lighting",
+        "sub_category": "Ceiling Lights",
+        "price": 249.99,
+        "img_url": "https://example.com/images/crystal_ceiling_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/crystal_ceiling_light_side.jpg",
+            "https://example.com/images/crystal_ceiling_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F0F8FF",
+                "price": 249.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A luxurious ceiling light made with sparkling crystals, perfect for adding glamour to your living or dining room.",
+        "video_url": "https://example.com/videos/crystal_ceiling_light_demo.mp4",
+        "rating": 4.9
+    },
+    {
+        "name": "Industrial Ceiling Light",
+        "category": "Lighting",
+        "sub_category": "Ceiling Lights",
+        "price": 139.99,
+        "img_url": "https://example.com/images/industrial_ceiling_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_ceiling_light_side.jpg",
+            "https://example.com/images/industrial_ceiling_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 139.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An industrial-style ceiling light with a metal finish, perfect for creating a cozy, rustic atmosphere.",
+        "video_url": "https://example.com/videos/industrial_ceiling_light_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "LED Ceiling Light",
+        "category": "Lighting",
+        "sub_category": "Ceiling Lights",
+        "price": 99.99,
+        "img_url": "https://example.com/images/led_ceiling_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/led_ceiling_light_side.jpg",
+            "https://example.com/images/led_ceiling_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 99.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An energy-efficient LED ceiling light with adjustable brightness, perfect for modern interiors.",
+        "video_url": "https://example.com/videos/led_ceiling_light_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Chandelier Ceiling Light",
+        "category": "Lighting",
+        "sub_category": "Ceiling Lights",
+        "price": 349.99,
+        "img_url": "https://example.com/images/chandelier_ceiling_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/chandelier_ceiling_light_side.jpg",
+            "https://example.com/images/chandelier_ceiling_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFD700",
+                "price": 349.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A luxurious chandelier ceiling light designed to add a royal touch to large living or dining rooms.",
+        "video_url": "https://example.com/videos/chandelier_ceiling_light_demo.mp4",
+        "rating": 4.9
+    },
+    {
+        "name": "Wall Sconce Light",
+        "category": "Lighting",
+        "sub_category": "Wall Sconces",
+        "price": 79.99,
+        "img_url": "https://example.com/images/wall_sconce_light.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wall_sconce_light_side.jpg",
+            "https://example.com/images/wall_sconce_light_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FF6347",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A stylish wall sconce designed to provide subtle illumination while complementing your room's decor.",
+        "video_url": "https://example.com/videos/wall_sconce_light_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Vintage Wall Sconce",
+        "category": "Lighting",
+        "sub_category": "Wall Sconces",
+        "price": 119.99,
+        "img_url": "https://example.com/images/vintage_wall_sconce.jpg",
+        "other_img_urls": [
+            "https://example.com/images/vintage_wall_sconce_side.jpg",
+            "https://example.com/images/vintage_wall_sconce_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#C0C0C0",
+                "price": 119.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A classic vintage wall sconce with an elegant design, perfect for adding warmth to hallways or bedrooms.",
+        "video_url": "https://example.com/videos/vintage_wall_sconce_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Modern Wall Sconce",
+        "category": "Lighting",
+        "sub_category": "Wall Sconces",
+        "price": 89.99,
+        "img_url": "https://example.com/images/modern_wall_sconce.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_wall_sconce_side.jpg",
+            "https://example.com/images/modern_wall_sconce_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A sleek and minimalist wall sconce light that adds a touch of modern sophistication to your living space.",
+        "video_url": "https://example.com/videos/modern_wall_sconce_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "LED Wall Sconce",
+        "category": "Lighting",
+        "sub_category": "Wall Sconces",
+        "price": 69.99,
+        "img_url": "https://example.com/images/led_wall_sconce.jpg",
+        "other_img_urls": [
+            "https://example.com/images/led_wall_sconce_side.jpg",
+            "https://example.com/images/led_wall_sconce_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 69.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "An energy-efficient LED wall sconce with a contemporary design, ideal for modern interiors.",
+        "video_url": "https://example.com/videos/led_wall_sconce_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Art Deco Wall Sconce",
+        "category": "Lighting",
+        "sub_category": "Wall Sconces",
+        "price": 159.99,
+        "img_url": "https://example.com/images/art_deco_wall_sconce.jpg",
+        "other_img_urls": [
+            "https://example.com/images/art_deco_wall_sconce_side.jpg",
+            "https://example.com/images/art_deco_wall_sconce_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFD700",
+                "price": 159.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An elegant Art Deco wall sconce that adds a touch of glamour and sophistication to any room.",
+        "video_url": "https://example.com/videos/art_deco_wall_sconce_demo.mp4",
+        "rating": 4.8
+    },
+    /*  */
+
+    {
+        "name": "Executive Office Desk",
+        "category": "Home Office",
+        "sub_category": "Home Office Desks",
+        "price": 399.99,
+        "img_url": "https://example.com/images/executive_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/executive_office_desk_side.jpg",
+            "https://example.com/images/executive_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 419.99
+            },
+            {
+                "color_value": "#D2B48C",
+                "price": 399.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A spacious executive desk crafted with high-quality wood to create a professional and stylish home office space.",
+        "video_url": "https://example.com/videos/executive_office_desk_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "L-Shaped Office Desk",
+        "category": "Home Office",
+        "sub_category": "Home Office Desks",
+        "price": 299.99,
+        "img_url": "https://example.com/images/l_shaped_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/l_shaped_office_desk_side.jpg",
+            "https://example.com/images/l_shaped_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A9A9A9",
+                "price": 309.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "An L-shaped office desk perfect for multi-tasking with ample space for your computer and other work materials.",
+        "video_url": "https://example.com/videos/l_shaped_office_desk_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Standing Desk",
+        "category": "Home Office",
+        "sub_category": "Home Office Desks",
+        "price": 269.99,
+        "img_url": "https://example.com/images/standing_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/standing_desk_side.jpg",
+            "https://example.com/images/standing_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F5F5F5",
+                "price": 269.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A height-adjustable standing desk that promotes better posture and increases productivity for home office setups.",
+        "video_url": "https://example.com/videos/standing_desk_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Compact Office Desk",
+        "category": "Home Office",
+        "sub_category": "Home Office Desks",
+        "price": 179.99,
+        "img_url": "https://example.com/images/compact_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/compact_office_desk_side.jpg",
+            "https://example.com/images/compact_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A compact desk for smaller spaces with a minimalist design and plenty of storage for your office essentials.",
+        "video_url": "https://example.com/videos/compact_office_desk_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Corner Office Desk",
+        "category": "Home Office",
+        "sub_category": "Home Office Desks",
+        "price": 349.99,
+        "img_url": "https://example.com/images/corner_office_desk.jpg",
+        "other_img_urls": [
+            "https://example.com/images/corner_office_desk_side.jpg",
+            "https://example.com/images/corner_office_desk_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 359.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A spacious corner desk that maximizes your home office space with plenty of room for all your work equipment.",
+        "video_url": "https://example.com/videos/corner_office_desk_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Ergonomic Executive Chair",
+        "category": "Home Office",
+        "sub_category": "Ergonomic Chairs",
+        "price": 159.99,
+        "img_url": "https://example.com/images/ergonomic_executive_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/ergonomic_executive_chair_side.jpg",
+            "https://example.com/images/ergonomic_executive_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 169.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An ergonomic executive chair designed for long hours of comfort with adjustable armrests and lumbar support.",
+        "video_url": "https://example.com/videos/ergonomic_executive_chair_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Mesh Ergonomic Chair",
+        "category": "Home Office",
+        "sub_category": "Ergonomic Chairs",
+        "price": 129.99,
+        "img_url": "https://example.com/images/mesh_ergonomic_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mesh_ergonomic_chair_side.jpg",
+            "https://example.com/images/mesh_ergonomic_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#708090",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A breathable mesh ergonomic chair designed for comfort and support during long hours of work.",
+        "video_url": "https://example.com/videos/mesh_ergonomic_chair_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Leather Executive Chair",
+        "category": "Home Office",
+        "sub_category": "Ergonomic Chairs",
+        "price": 219.99,
+        "img_url": "https://example.com/images/leather_executive_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/leather_executive_chair_side.jpg",
+            "https://example.com/images/leather_executive_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 219.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A luxurious leather executive chair with adjustable seating, perfect for any home office setup.",
+        "video_url": "https://example.com/videos/leather_executive_chair_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Adjustable Ergonomic Chair",
+        "category": "Home Office",
+        "sub_category": "Ergonomic Chairs",
+        "price": 139.99,
+        "img_url": "https://example.com/images/adjustable_ergonomic_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/adjustable_ergonomic_chair_side.jpg",
+            "https://example.com/images/adjustable_ergonomic_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2E8B57",
+                "price": 139.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A fully adjustable ergonomic chair designed to provide the best support for your back and posture.",
+        "video_url": "https://example.com/videos/adjustable_ergonomic_chair_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Task Ergonomic Chair",
+        "category": "Home Office",
+        "sub_category": "Ergonomic Chairs",
+        "price": 119.99,
+        "img_url": "https://example.com/images/task_ergonomic_chair.jpg",
+        "other_img_urls": [
+            "https://example.com/images/task_ergonomic_chair_side.jpg",
+            "https://example.com/images/task_ergonomic_chair_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F0E68C",
+                "price": 119.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A comfortable and adjustable task chair with lumbar support, perfect for desk work or gaming.",
+        "video_url": "https://example.com/videos/task_ergonomic_chair_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Wooden Bookshelf",
+        "category": "Home Office",
+        "sub_category": "Bookshelves",
+        "price": 199.99,
+        "img_url": "https://example.com/images/wooden_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_bookshelf_side.jpg",
+            "https://example.com/images/wooden_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sturdy wooden bookshelf with multiple shelves to organize your books and office supplies.",
+        "video_url": "https://example.com/videos/wooden_bookshelf_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Metal Frame Bookshelf",
+        "category": "Home Office",
+        "sub_category": "Bookshelves",
+        "price": 149.99,
+        "img_url": "https://example.com/images/metal_frame_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/metal_frame_bookshelf_side.jpg",
+            "https://example.com/images/metal_frame_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A9A9A9",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek and modern metal frame bookshelf with open shelves for easy access to your books and decor.",
+        "video_url": "https://example.com/videos/metal_frame_bookshelf_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Corner Bookshelf",
+        "category": "Home Office",
+        "sub_category": "Bookshelves",
+        "price": 129.99,
+        "img_url": "https://example.com/images/corner_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/corner_bookshelf_side.jpg",
+            "https://example.com/images/corner_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A corner bookshelf designed to maximize space and keep your books and office materials organized.",
+        "video_url": "https://example.com/videos/corner_bookshelf_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Floating Bookshelf",
+        "category": "Home Office",
+        "sub_category": "Bookshelves",
+        "price": 79.99,
+        "img_url": "https://example.com/images/floating_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/floating_bookshelf_side.jpg",
+            "https://example.com/images/floating_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A minimalist floating bookshelf perfect for small spaces, with a sleek design to display your favorite books.",
+        "video_url": "https://example.com/videos/floating_bookshelf_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Industrial Bookshelf",
+        "category": "Home Office",
+        "sub_category": "Bookshelves",
+        "price": 179.99,
+        "img_url": "https://example.com/images/industrial_bookshelf.jpg",
+        "other_img_urls": [
+            "https://example.com/images/industrial_bookshelf_side.jpg",
+            "https://example.com/images/industrial_bookshelf_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "An industrial-style bookshelf with a sturdy metal frame and spacious shelves for storing your books and office supplies.",
+        "video_url": "https://example.com/videos/industrial_bookshelf_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Adjustable Computer Stand",
+        "category": "Home Office",
+        "sub_category": "Computer Stands",
+        "price": 59.99,
+        "img_url": "https://example.com/images/adjustable_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/adjustable_computer_stand_side.jpg",
+            "https://example.com/images/adjustable_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 59.99
+            },
+            {
+                "color_value": "#FFFFFF",
+                "price": 62.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "An adjustable computer stand that promotes ergonomic sitting posture by raising your laptop or monitor to eye level.",
+        "video_url": "https://example.com/videos/adjustable_computer_stand_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Wooden Computer Stand",
+        "category": "Home Office",
+        "sub_category": "Computer Stands",
+        "price": 79.99,
+        "img_url": "https://example.com/images/wooden_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_computer_stand_side.jpg",
+            "https://example.com/images/wooden_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A stylish wooden computer stand perfect for elevating your monitor or laptop and reducing neck strain.",
+        "video_url": "https://example.com/videos/wooden_computer_stand_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Compact Computer Stand",
+        "category": "Home Office",
+        "sub_category": "Computer Stands",
+        "price": 39.99,
+        "img_url": "https://example.com/images/compact_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/compact_computer_stand_side.jpg",
+            "https://example.com/images/compact_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A9A9A9",
+                "price": 39.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A compact computer stand that saves desk space while providing an elevated position for your screen or laptop.",
+        "video_url": "https://example.com/videos/compact_computer_stand_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Metal Computer Stand",
+        "category": "Home Office",
+        "sub_category": "Computer Stands",
+        "price": 69.99,
+        "img_url": "https://example.com/images/metal_computer_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/metal_computer_stand_side.jpg",
+            "https://example.com/images/metal_computer_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#2F4F4F",
+                "price": 69.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek metal computer stand with adjustable height, ideal for users seeking modern and practical desk accessories.",
+        "video_url": "https://example.com/videos/metal_computer_stand_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Ergonomic Monitor Stand",
+        "category": "Home Office",
+        "sub_category": "Computer Stands",
+        "price": 89.99,
+        "img_url": "https://example.com/images/ergonomic_monitor_stand.jpg",
+        "other_img_urls": [
+            "https://example.com/images/ergonomic_monitor_stand_side.jpg",
+            "https://example.com/images/ergonomic_monitor_stand_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D2B48C",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "An ergonomic monitor stand designed to enhance posture by elevating your monitor, reducing eye and neck strain.",
+        "video_url": "https://example.com/videos/ergonomic_monitor_stand_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Wooden Filing Cabinet",
+        "category": "Home Office",
+        "sub_category": "Office Storage",
+        "price": 129.99,
+        "img_url": "https://example.com/images/wooden_filing_cabinet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_filing_cabinet_side.jpg",
+            "https://example.com/images/wooden_filing_cabinet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sturdy wooden filing cabinet with multiple drawers to organize your office files, documents, and other supplies.",
+        "video_url": "https://example.com/videos/wooden_filing_cabinet_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Metal Storage Cabinet",
+        "category": "Home Office",
+        "sub_category": "Office Storage",
+        "price": 99.99,
+        "img_url": "https://example.com/images/metal_storage_cabinet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/metal_storage_cabinet_side.jpg",
+            "https://example.com/images/metal_storage_cabinet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A9A9A9",
+                "price": 99.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A metal storage cabinet with adjustable shelves to store office supplies and equipment in a compact design.",
+        "video_url": "https://example.com/videos/metal_storage_cabinet_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Office Drawer Organizer",
+        "category": "Home Office",
+        "sub_category": "Office Storage",
+        "price": 49.99,
+        "img_url": "https://example.com/images/office_drawer_organizer.jpg",
+        "other_img_urls": [
+            "https://example.com/images/office_drawer_organizer_side.jpg",
+            "https://example.com/images/office_drawer_organizer_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 49.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A small office drawer organizer to help store and sort documents, pens, and other office essentials.",
+        "video_url": "https://example.com/videos/office_drawer_organizer_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Mobile File Cabinet",
+        "category": "Home Office",
+        "sub_category": "Office Storage",
+        "price": 159.99,
+        "img_url": "https://example.com/images/mobile_file_cabinet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/mobile_file_cabinet_side.jpg",
+            "https://example.com/images/mobile_file_cabinet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 159.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A mobile file cabinet with lockable drawers, perfect for organizing files and documents in your home office.",
+        "video_url": "https://example.com/videos/mobile_file_cabinet_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Shelving Unit",
+        "category": "Home Office",
+        "sub_category": "Office Storage",
+        "price": 89.99,
+        "img_url": "https://example.com/images/shelving_unit.jpg",
+        "other_img_urls": [
+            "https://example.com/images/shelving_unit_side.jpg",
+            "https://example.com/images/shelving_unit_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A52A2A",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A versatile shelving unit to store books, binders, and other office supplies, designed to fit into any office layout.",
+        "video_url": "https://example.com/videos/shelving_unit_demo.mp4",
+        "rating": 4.5
+    },
+    /* Home Decoration */
+    {
+        "name": "Abstract Canvas Art",
+        "category": "Home Decoration",
+        "sub_category": "Wall Art",
+        "price": 79.99,
+        "img_url": "https://example.com/images/abstract_canvas_art.jpg",
+        "other_img_urls": [
+            "https://example.com/images/abstract_canvas_art_side.jpg",
+            "https://example.com/images/abstract_canvas_art_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A bold, abstract canvas piece designed to bring a modern and artistic touch to any living space.",
+        "video_url": "https://example.com/videos/abstract_canvas_art_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Framed Vintage Poster",
+        "category": "Home Decoration",
+        "sub_category": "Wall Art",
+        "price": 49.99,
+        "img_url": "https://example.com/images/framed_vintage_poster.jpg",
+        "other_img_urls": [
+            "https://example.com/images/framed_vintage_poster_side.jpg",
+            "https://example.com/images/framed_vintage_poster_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F5F5F5",
+                "price": 49.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A classic vintage poster framed for a timeless appeal, perfect for creating a nostalgic vibe.",
+        "video_url": "https://example.com/videos/framed_vintage_poster_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Nature Landscape Canvas",
+        "category": "Home Decoration",
+        "sub_category": "Wall Art",
+        "price": 99.99,
+        "img_url": "https://example.com/images/nature_landscape_canvas.jpg",
+        "other_img_urls": [
+            "https://example.com/images/nature_landscape_canvas_side.jpg",
+            "https://example.com/images/nature_landscape_canvas_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#008000",
+                "price": 99.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A serene and peaceful nature landscape canvas, ideal for adding tranquility to your home.",
+        "video_url": "https://example.com/videos/nature_landscape_canvas_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Modern Geometric Wall Art",
+        "category": "Home Decoration",
+        "sub_category": "Wall Art",
+        "price": 69.99,
+        "img_url": "https://example.com/images/modern_geometric_wall_art.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_geometric_wall_art_side.jpg",
+            "https://example.com/images/modern_geometric_wall_art_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FF6347",
+                "price": 69.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A stylish geometric design canvas art piece that complements modern interiors and contemporary design.",
+        "video_url": "https://example.com/videos/modern_geometric_wall_art_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Floral Watercolor Painting",
+        "category": "Home Decoration",
+        "sub_category": "Wall Art",
+        "price": 89.99,
+        "img_url": "https://example.com/images/floral_watercolor_painting.jpg",
+        "other_img_urls": [
+            "https://example.com/images/floral_watercolor_painting_side.jpg",
+            "https://example.com/images/floral_watercolor_painting_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFF00",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A beautiful floral watercolor painting that brings elegance and warmth to any room.",
+        "video_url": "https://example.com/videos/floral_watercolor_painting_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Modern Abstract Area Rug",
+        "category": "Home Decoration",
+        "sub_category": "Rugs & Carpets",
+        "price": 159.99,
+        "img_url": "https://example.com/images/modern_abstract_area_rug.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_abstract_area_rug_side.jpg",
+            "https://example.com/images/modern_abstract_area_rug_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#808080",
+                "price": 159.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A modern abstract area rug that adds color and style to any living room or bedroom.",
+        "video_url": "https://example.com/videos/modern_abstract_area_rug_demo.mp4",
+        "rating": 4.4
+    },
+    {
+        "name": "Traditional Persian Carpet",
+        "category": "Home Decoration",
+        "sub_category": "Rugs & Carpets",
+        "price": 249.99,
+        "img_url": "https://example.com/images/traditional_persian_carpet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/traditional_persian_carpet_side.jpg",
+            "https://example.com/images/traditional_persian_carpet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#C71585",
+                "price": 249.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A luxurious traditional Persian carpet, known for its intricate patterns and high-quality material.",
+        "video_url": "https://example.com/videos/traditional_persian_carpet_demo.mp4",
+        "rating": 4.9
+    },
+    {
+        "name": "Cotton Jute Area Rug",
+        "category": "Home Decoration",
+        "sub_category": "Rugs & Carpets",
+        "price": 69.99,
+        "img_url": "https://example.com/images/cotton_jute_area_rug.jpg",
+        "other_img_urls": [
+            "https://example.com/images/cotton_jute_area_rug_side.jpg",
+            "https://example.com/images/cotton_jute_area_rug_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#F5F5F5",
+                "price": 69.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A natural cotton and jute area rug with a simplistic design, perfect for adding warmth to any room.",
+        "video_url": "https://example.com/videos/cotton_jute_area_rug_demo.mp4",
+        "rating": 4.2
+    },
+    {
+        "name": "Shaggy Plush Carpet",
+        "category": "Home Decoration",
+        "sub_category": "Rugs & Carpets",
+        "price": 119.99,
+        "img_url": "https://example.com/images/shaggy_plush_carpet.jpg",
+        "other_img_urls": [
+            "https://example.com/images/shaggy_plush_carpet_side.jpg",
+            "https://example.com/images/shaggy_plush_carpet_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 119.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A cozy and plush shaggy carpet that brings comfort and a soft touch to any space.",
+        "video_url": "https://example.com/videos/shaggy_plush_carpet_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Outdoor Patio Rug",
+        "category": "Home Decoration",
+        "sub_category": "Rugs & Carpets",
+        "price": 89.99,
+        "img_url": "https://example.com/images/outdoor_patio_rug.jpg",
+        "other_img_urls": [
+            "https://example.com/images/outdoor_patio_rug_side.jpg",
+            "https://example.com/images/outdoor_patio_rug_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B0000",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A durable outdoor patio rug that adds a stylish touch to your outdoor living area.",
+        "video_url": "https://example.com/videos/outdoor_patio_rug_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Premium Blackout Curtains",
+        "category": "Home Decoration",
+        "sub_category": "Curtains & Blinds",
+        "price": 79.99,
+        "img_url": "https://example.com/images/premium_blackout_curtains.jpg",
+        "other_img_urls": [
+            "https://example.com/images/premium_blackout_curtains_side.jpg",
+            "https://example.com/images/premium_blackout_curtains_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 79.99
+            }
+        ],
+        "sizes": [
+            "medium",
+            "large"
+        ],
+        "description": "Premium blackout curtains perfect for blocking out light and maintaining privacy in your living room or bedroom.",
+        "video_url": "https://example.com/videos/premium_blackout_curtains_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Sheer Linen Curtains",
+        "category": "Home Decoration",
+        "sub_category": "Curtains & Blinds",
+        "price": 59.99,
+        "img_url": "https://example.com/images/sheer_linen_curtains.jpg",
+        "other_img_urls": [
+            "https://example.com/images/sheer_linen_curtains_side.jpg",
+            "https://example.com/images/sheer_linen_curtains_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 59.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "Sheer linen curtains that offer an elegant and airy feel to your living space, perfect for adding light and style.",
+        "video_url": "https://example.com/videos/sheer_linen_curtains_demo.mp4",
+        "rating": 4.3
+    },
+    {
+        "name": "Wooden Venetian Blinds",
+        "category": "Home Decoration",
+        "sub_category": "Curtains & Blinds",
+        "price": 99.99,
+        "img_url": "https://example.com/images/wooden_venetian_blinds.jpg",
+        "other_img_urls": [
+            "https://example.com/images/wooden_venetian_blinds_side.jpg",
+            "https://example.com/images/wooden_venetian_blinds_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 99.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "Wooden Venetian blinds, offering adjustable slats for controlling light and privacy with a touch of natural elegance.",
+        "video_url": "https://example.com/videos/wooden_venetian_blinds_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Roman Shades",
+        "category": "Home Decoration",
+        "sub_category": "Curtains & Blinds",
+        "price": 129.99,
+        "img_url": "https://example.com/images/roman_shades.jpg",
+        "other_img_urls": [
+            "https://example.com/images/roman_shades_side.jpg",
+            "https://example.com/images/roman_shades_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D2B48C",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "Sleek Roman shades that combine function and style, perfect for any room that requires a soft, elegant look.",
+        "video_url": "https://example.com/videos/roman_shades_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Velvet Curtain Panels",
+        "category": "Home Decoration",
+        "sub_category": "Curtains & Blinds",
+        "price": 89.99,
+        "img_url": "https://example.com/images/velvet_curtain_panels.jpg",
+        "other_img_urls": [
+            "https://example.com/images/velvet_curtain_panels_side.jpg",
+            "https://example.com/images/velvet_curtain_panels_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8A2BE2",
+                "price": 89.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "Luxurious velvet curtain panels designed to create a dramatic and soft atmosphere in any room.",
+        "video_url": "https://example.com/videos/velvet_curtain_panels_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Round Wall Mirror",
+        "category": "Home Decoration",
+        "sub_category": "Mirrors",
+        "price": 149.99,
+        "img_url": "https://example.com/images/round_wall_mirror.jpg",
+        "other_img_urls": [
+            "https://example.com/images/round_wall_mirror_side.jpg",
+            "https://example.com/images/round_wall_mirror_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#D3D3D3",
+                "price": 149.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A stylish round wall mirror that brings sophistication and depth to any space.",
+        "video_url": "https://example.com/videos/round_wall_mirror_demo.mp4",
+        "rating": 4.9
+    },
+    {
+        "name": "Vintage Oval Mirror",
+        "category": "Home Decoration",
+        "sub_category": "Mirrors",
+        "price": 199.99,
+        "img_url": "https://example.com/images/vintage_oval_mirror.jpg",
+        "other_img_urls": [
+            "https://example.com/images/vintage_oval_mirror_side.jpg",
+            "https://example.com/images/vintage_oval_mirror_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#CD853F",
+                "price": 199.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A beautiful vintage oval mirror framed in ornate detailing, perfect for adding elegance to any room.",
+        "video_url": "https://example.com/videos/vintage_oval_mirror_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Modern Square Mirror",
+        "category": "Home Decoration",
+        "sub_category": "Mirrors",
+        "price": 129.99,
+        "img_url": "https://example.com/images/modern_square_mirror.jpg",
+        "other_img_urls": [
+            "https://example.com/images/modern_square_mirror_side.jpg",
+            "https://example.com/images/modern_square_mirror_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#000000",
+                "price": 129.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A sleek and modern square mirror, perfect for minimalist designs and contemporary spaces.",
+        "video_url": "https://example.com/videos/modern_square_mirror_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Full-Length Mirror",
+        "category": "Home Decoration",
+        "sub_category": "Mirrors",
+        "price": 179.99,
+        "img_url": "https://example.com/images/full_length_mirror.jpg",
+        "other_img_urls": [
+            "https://example.com/images/full_length_mirror_side.jpg",
+            "https://example.com/images/full_length_mirror_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#A9A9A9",
+                "price": 179.99
+            }
+        ],
+        "sizes": [
+            "large"
+        ],
+        "description": "A full-length mirror with a slim profile that adds height and light to any room.",
+        "video_url": "https://example.com/videos/full_length_mirror_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Decorative Mirror Set",
+        "category": "Home Decoration",
+        "sub_category": "Mirrors",
+        "price": 219.99,
+        "img_url": "https://example.com/images/decorative_mirror_set.jpg",
+        "other_img_urls": [
+            "https://example.com/images/decorative_mirror_set_side.jpg",
+            "https://example.com/images/decorative_mirror_set_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 219.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A set of three decorative mirrors designed to make a statement in any room.",
+        "video_url": "https://example.com/videos/decorative_mirror_set_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Luxury Velvet Pillow",
+        "category": "Home Decoration",
+        "sub_category": "Decorative Pillows",
+        "price": 49.99,
+        "img_url": "https://example.com/images/luxury_velvet_pillow.jpg",
+        "other_img_urls": [
+            "https://example.com/images/luxury_velvet_pillow_side.jpg",
+            "https://example.com/images/luxury_velvet_pillow_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#4B0082",
+                "price": 49.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A luxurious velvet pillow that adds comfort and sophistication to any sofa or chair.",
+        "video_url": "https://example.com/videos/luxury_velvet_pillow_demo.mp4",
+        "rating": 4.6
+    },
+    {
+        "name": "Boho Chic Throw Pillow",
+        "category": "Home Decoration",
+        "sub_category": "Decorative Pillows",
+        "price": 29.99,
+        "img_url": "https://example.com/images/boho_chic_throw_pillow.jpg",
+        "other_img_urls": [
+            "https://example.com/images/boho_chic_throw_pillow_side.jpg",
+            "https://example.com/images/boho_chic_throw_pillow_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFD700",
+                "price": 29.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A stylish boho chic throw pillow with intricate patterns, perfect for adding a pop of color to any space.",
+        "video_url": "https://example.com/videos/boho_chic_throw_pillow_demo.mp4",
+        "rating": 4.5
+    },
+    {
+        "name": "Textured Wool Pillow",
+        "category": "Home Decoration",
+        "sub_category": "Decorative Pillows",
+        "price": 39.99,
+        "img_url": "https://example.com/images/textured_wool_pillow.jpg",
+        "other_img_urls": [
+            "https://example.com/images/textured_wool_pillow_side.jpg",
+            "https://example.com/images/textured_wool_pillow_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#8B4513",
+                "price": 39.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A cozy textured wool pillow that provides warmth and comfort to your living room or bedroom.",
+        "video_url": "https://example.com/videos/textured_wool_pillow_demo.mp4",
+        "rating": 4.7
+    },
+    {
+        "name": "Embroidered Throw Pillow",
+        "category": "Home Decoration",
+        "sub_category": "Decorative Pillows",
+        "price": 34.99,
+        "img_url": "https://example.com/images/embroidered_throw_pillow.jpg",
+        "other_img_urls": [
+            "https://example.com/images/embroidered_throw_pillow_side.jpg",
+            "https://example.com/images/embroidered_throw_pillow_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#800080",
+                "price": 34.99
+            }
+        ],
+        "sizes": [
+            "small"
+        ],
+        "description": "A beautifully embroidered throw pillow that adds an artistic touch to your living room or bedroom.",
+        "video_url": "https://example.com/videos/embroidered_throw_pillow_demo.mp4",
+        "rating": 4.8
+    },
+    {
+        "name": "Memory Foam Pillow",
+        "category": "Home Decoration",
+        "sub_category": "Decorative Pillows",
+        "price": 59.99,
+        "img_url": "https://example.com/images/memory_foam_pillow.jpg",
+        "other_img_urls": [
+            "https://example.com/images/memory_foam_pillow_side.jpg",
+            "https://example.com/images/memory_foam_pillow_back.jpg"
+        ],
+        "colors": [
+            {
+                "color_value": "#FFFFFF",
+                "price": 59.99
+            }
+        ],
+        "sizes": [
+            "medium"
+        ],
+        "description": "A supportive memory foam pillow designed to provide comfort and support while adding style to your space.",
+        "video_url": "https://example.com/videos/memory_foam_pillow_demo.mp4",
+        "rating": 4.6
+    }
+]

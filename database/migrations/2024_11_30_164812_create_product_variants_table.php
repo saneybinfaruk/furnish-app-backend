@@ -12,10 +12,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('product_sizes', function (Blueprint $table) {
+        Schema::create('product_variants', function (Blueprint $table) {
             $table->id();
-            $table->string('size');
+            $table->string('color_name')->nullable();
+            $table->string('color_value');
+            $table->string('color_option');
             $table->foreignIdFor(Product::class)->constrained()->cascadeOnDelete();;
+            $table->decimal('price');
+            $table->string('discount_type');
+            $table->string('discount');
+            $table->string('stock');
+
             $table->timestamps();
         });
     }
@@ -25,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('size');
+        Schema::dropIfExists('product_variants');
     }
 };

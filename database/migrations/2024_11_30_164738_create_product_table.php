@@ -23,6 +23,10 @@ return new class extends Migration {
             $table->longText('description');
             $table->string('video_url');
             $table->decimal('rating');
+            $table->string('discount_type');
+            $table->string('discount')->nullable();
+            $table->string('color_option');
+
 
             $table->timestamps();
         });
@@ -33,6 +37,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('product');
+        Schema::dropIfExists('products');
     }
 };

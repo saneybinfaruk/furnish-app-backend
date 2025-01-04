@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SubCategoryController;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\SubCategory;
@@ -9,56 +12,27 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/products', function (Request $request) {
+Route::get('/products', [ProductController::class, 'index']);
+Route::post('/products', [ProductController::class, 'store']);
 
-    $category_param = $request->query('category'); // Get the 'category' query parameter
-    $subcategorySlugs = $request->query('subcategory'); // Get the 'subcategory' query parameter
-    $perPage = $request->query('per_page', 10);
+Route::get('/products/{id}', [ProductController::class, 'show']);
 
-    $category = Category::query()->where('slug', $category_param)->first();
+Route::get('/categories', [CategoryController::class, 'index']);
 
-    // Example filtering logic
-    $query = Product::query();
+Route::post('/categories',[CategoryController::class,'store']);
 
-    if(is_array($subcategorySlugs)) {
-        $subcategory = SubCategory::whereIn('slug', $subcategorySlugs)->pluck('id');
+Route::get('/categories/{id}', [CategoryController::class, 'show']);
+Route::put('/categories/{id}', [CategoryController::class, 'update']);
+Route::delete('/categories/{id}', [CategoryController::class, 'destroy']);
 
-        if($subcategory->isNotEmpty()) {
-            $query->whereIn('sub_category_id', $subcategory);
-        }
-    }
+Route::get('/subcategories', [SubCategoryController::class, 'index']);
+Route::post('/subcategories',[SubCategoryController::class,'store']);
 
+Route::get('/subcategories/{id}', [SubCategoryController::class, 'show']);
+Route::put('/subcategories/{id}', [SubCategoryController::class, 'update']);
+Route::delete('/subcategories/{id}', [SubCategoryController::class, 'destroy']);
 
-
-    if ($category) {
-        $query->where('category_id', $category->id);
-    }
-
-
-
-
-    $products = $query->simplePaginate(15);
-
-
-
-    $categories = Category::with('subcategories')->get();
-
-
-    return response()->json([
-        'products' => $products,
-        'categories' => $categories,
-        'subcategories' => 'Subcategories',
-    ]);
-
-});
-
-Route::get('/categories', function () {
-    return response()->json(Category::with('subcategories')->get());
-});
-
-Route::get('/products/{id}', function ($id) {
-    return Product::find($id);
-});
+Route::get('/products/{id}', [ProductController::class, 'show']);
 
 Route::post('/make-payment', [PaymentController::class, 'makePayment'] );
 
